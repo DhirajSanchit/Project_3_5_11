@@ -1,6 +1,7 @@
-public class Muur extends SpelObject {
+public class Muur extends SpelObject  {
 
     private boolean muur;
+    private int code;
 
     public Muur(boolean muur) {
         this.muur = muur;

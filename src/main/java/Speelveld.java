@@ -55,11 +55,14 @@ public class Speelveld extends JFrame {
         
         for (int ii = 0; ii < veldBlokken.length; ii++) {
             for (int jj = 0; jj < veldBlokken[ii].length; jj++) {
-                JLabel b = new JLabel();
-                b.setSize(300, 300);
-                b.setBorder(BorderFactory.createLineBorder(Color.BLACK));
-                observatieVeld.add(b);
+                Vak vak = new Vak();
+                vak.setSize(300, 300);
+                vak.setBorder(BorderFactory.createLineBorder(Color.BLACK));
+                observatieVeld.add(vak);
                 observatieVeld.setLayout(experimentLayout);
+
+                //Checker if code runs.
+                //System.out.println();
             }
 
         }

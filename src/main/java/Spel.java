@@ -9,7 +9,6 @@ public class Spel {
         Spel spel = new Spel();
         spel.start();
 
-
     }
 
 
