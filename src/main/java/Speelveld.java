@@ -26,15 +26,10 @@ public class Speelveld extends JFrame {
         {1,0,0,0,0,0,0,0,0,0,1,0,1},
         {1,1,1,1,1,1,1,1,1,1,1,1,1}
     };
-    
-
-
 
     Speelveld(){
 
     }
-
-    
 
     public final void creeerVeld() {        
         
@@ -72,11 +67,6 @@ public class Speelveld extends JFrame {
         keyBarricade.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         keyBarricade.setVisible(true);
     }
-
-
-
-
-
 
 
     public int getSpeeldveldID() {
